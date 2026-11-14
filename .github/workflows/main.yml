@@ -19,6 +19,9 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+    - name: Check Directory (Debug)
+      run: ls -la
+
     - name: Grant execute permission for gradlew
       working-directory: ./TashbihApp
       run: chmod +x gradlew
